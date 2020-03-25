@@ -393,7 +393,8 @@ if (newPath) {
 
 
 }
-console.log("________________________________");
+// only for debugging 
+// console.log("________________________________");
 } else{
 // no solution 
 console.log("no_Solution");
@@ -527,8 +528,9 @@ if (Unvisited_Nodes.includes(neighbor)) {
 // Yes, it's a better path
 if (newPath) {
   neighbor.previous = current_Node;
-console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
-console.log("g is : " + neighbor.g);
+  // only for debugging 
+// console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
+// console.log("g is : " + neighbor.g);
 }
 
 
@@ -538,7 +540,8 @@ console.log("g is : " + neighbor.g);
 }
 
 }
-console.log("________________________________");
+// only for debugging 
+// console.log("________________________________");
 } else{
 // no solution 
 console.log("no_Solution");
@@ -612,15 +615,17 @@ if(Select_Heuristic == 2){
 }
 
   neighbor.previous = current_Node;
-console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
-console.log("h is : " + neighbor.h);
-console.log("g is : " + neighbor.g);
-console.log("f is : " + neighbor.f);
+  // only for debugging 
+// console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
+// console.log("h is : " + neighbor.h);
+// console.log("g is : " + neighbor.g);
+// console.log("f is : " + neighbor.f);
 
 }
 
 }
-console.log("________________________________");
+// only for debugging 
+// console.log("________________________________");
 } else{
 // no solution 
 console.log("no_Solution");
@@ -764,10 +769,11 @@ if(Select_Heuristic == 2){
 
 
   neighbor.previous = current_Node;
-console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
-console.log("h is : " + neighbor.h);
-console.log("g is : " + neighbor.g);
-console.log("f is : " + neighbor.f);
+  // only for debugging 
+// console.log("   current neighbor's i : " + neighbor.i + "     current neighbor's j : " + neighbor.j);
+// console.log("h is : " + neighbor.h);
+// console.log("g is : " + neighbor.g);
+// console.log("f is : " + neighbor.f);
 }
 
 
@@ -777,7 +783,8 @@ console.log("f is : " + neighbor.f);
 }
 
 }
-console.log("________________________________");
+// only for debugging 
+// console.log("________________________________");
 } else{
 // no solution 
 console.log("no_Solution");
