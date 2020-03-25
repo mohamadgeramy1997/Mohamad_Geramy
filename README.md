@@ -96,7 +96,7 @@ http://uplod.ir/uqjpp66vomkn/Astar_Codes_AND_Libraries.rar.htm
 
 Start.html 
 
-کلیک فرمایید 
+کلیک نمایید 
 
 
 
