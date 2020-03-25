@@ -5,7 +5,7 @@ in here i have defined nodes(i,j) with i and j values that are cells in canvas
 */
 
 
-function Node(i,j,Diagonals) { // constructor function 
+function Node(i,j,Diagonals_Allowed) { // constructor function 
     // location of spot(node)
     this.i = i;
     this.j = j;
@@ -68,7 +68,7 @@ function Node(i,j,Diagonals) { // constructor function
 
 
 // *** Diagonal Path included 
-if(Diagonals){
+if(Diagonals_Allowed){
   if (i > 0 && j > 0) {
     this.neighbors.push(grid[i - 1][j - 1]);
   }
@@ -97,9 +97,13 @@ this.Show_information = function(grid)
   // black --> (color(0,0,0)
 
     this.show(color(255,200,30));
-    console.log("Column = " + (this.i+1));
-    console.log("Row = " + (this.j+1));
-    console.log("IsWall = " + this.wall);
+
+
+    // only for debugging 
+
+    // console.log("Column = " + (this.i+1));
+    // console.log("Row = " + (this.j+1));
+    // console.log("IsWall = " + this.wall);
   
 }
 
@@ -108,9 +112,10 @@ this.Show_Parent_information = function(grid){
     console.log("Parent Undefined!")
   }else{
     this.previous.show(color(255,240,0));
-    console.log("Column = " + (this.previous.i+1));
-    console.log("Row = " + (this.previous.j+1));
-    console.log("IsWall = " + this.previous.wall);
+    // only for debugging 
+    // console.log("Column = " + (this.previous.i+1));
+    // console.log("Row = " + (this.previous.j+1));
+    // console.log("IsWall = " + this.previous.wall);
   
   }
   
@@ -119,9 +124,10 @@ this.Show_Parent_information = function(grid){
 
 {
   this.show(color(200,200,0));
-  console.log("Column = " + (this.i+1));
-  console.log("Row = " + (this.j+1));
-  console.log("IsWall = " + this.wall);
+  // only for debugging 
+  // console.log("Column = " + (this.i+1));
+  // console.log("Row = " + (this.j+1));
+  // console.log("IsWall = " + this.wall);
 }
 
 this.Show_Neighbors = function(grid)
@@ -130,9 +136,11 @@ this.Show_Neighbors = function(grid)
   for(var i=0;i<this.neighbors.length;i++)
   {
     sleep(300);
-    console.log(" neighbor " + (i+1) + " it's in Row : " + (this.neighbors[i].i+1) + " and it's in Column : " + (this.neighbors[i].j+1) + "  & IsWall " + this.neighbors[i].wall);
+    // only for debugging 
+    // console.log(" neighbor " + (i+1) + " it's in Row : " + (this.neighbors[i].i+1) + " and it's in Column : " + (this.neighbors[i].j+1) + "  & IsWall " + this.neighbors[i].wall);
     this.neighbors[i].show(color(0,100,255));
-    console.log("_______________________________________");
+    // only for debugging 
+    // console.log("_______________________________________");
   }
 
 
