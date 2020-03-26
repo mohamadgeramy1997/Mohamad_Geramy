@@ -54,6 +54,13 @@ A_Star(Walls_Defined) :
 
 http://uplod.ir/fgdcszrjizkk/AStar_No_Diagonals_And_Diagonals.gif.htm
 
+http://uplod.ir/xluutndm7v5q/A_Star_Diagonal_No_Diagonal.mp4.htm
+
+در این دمو نیز 
+Maze 
+تولید شده و سپس با تمامی الگوریتم ها تست شده است 
+
+http://uplod.ir/wvpqy2gtdm3x/Maze_Pathfinding_A_Star_BFS_Dijkstra.mp4.htm
 
 --------------------------------------------------------------------------------------------
 
@@ -65,7 +72,7 @@ Dijkstra Algorithm Path finding :
 http://uplod.ir/ygt4bjoqijxk/Dijkstra.gif.htm
 
 
-
+http://uplod.ir/5igqo4iuqul8/Dijkstra.mp4.htm
 
 
 --------------------------------------------------------------------------------------------
@@ -80,7 +87,7 @@ BFS Pathfinding Algorithm
 http://uplod.ir/jkdv457y4txg/BFS.gif.htm
 
 
-
+http://uplod.ir/13yp9yxm3s6f/BFS.mp4.htm
 
 
 --------------------------------------------------------------------------------------------
