@@ -25,6 +25,7 @@ View all of README.md
 
 http://uplod.ir/8msnb4n6s2qy/Maze_Implementation_Comments_And_Notes.pdf.htm
 
+http://uplod.ir/th0hwexy5wxn/Maze_Implementation_Comments_And_Notes.docx.htm
 
 
 
